@@ -1,17 +1,15 @@
     -- Dev V4 Discord Lib
 
-    wait(0.6)
-
     local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord"))()
-    local window = library:Window("🔥 Dev V4 🔥")
+    local window = library:Window("Dev V4 🔒 Private 🔒")
 
 
     -- Main
 
     wait(0.4)
-    game.StarterGui:SetCore("SendNotification", {Title = "Version Up To Date!", Text = "Dev V4 Version = (V4.1.8)", Icon = "rbxassetid://10470552407", Duration = 5})
+    game.StarterGui:SetCore("SendNotification", {Title = "Version Is Up To Date!", Text = "Dev V4 Private Version = (V4.1.8)", Icon = "rbxassetid://10470552407", Duration = 5})
     wait(0.2)
-    game.StarterGui:SetCore("SendNotification", {Title = "👑 Enjoy Dev V4 👑", Text = "Dev V4 Finished Loading!", Icon = "rbxassetid://10470552407", Duration = 5})
+    game.StarterGui:SetCore("SendNotification", {Title = "👑 Enjoy Dev V4 Private👑", Text = "Dev V4 Private Finished Loading!", Icon = "rbxassetid://10470552407", Duration = 5})
 
     local Tab = window:Server("Dev V4", "rbxassetid://10470552407")
     local ChangeLogsSection = Tab:Channel("ChangeLogs")
