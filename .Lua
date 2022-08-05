@@ -15,13 +15,11 @@
 
     local Tab = window:Server("Dev V4", "rbxassetid://10470552407")
     local ChangeLogsSection = Tab:Channel("ChangeLogs")
-    ChangeLogsSection:Label("(+) Small Update Will be 0.5 Per Update,Big updates will be 1 per update", function(Red)
+    ChangeLogsSection:Label("(+) Small Update Will be 0.1 Per Update", function(Red)
     end)
     ChangeLogsSection:Label("(+) Added Key Copy (PSX) (MS2),If your lazy like me", function(Red)
     end)
-    ChangeLogsSection:Label("(+) Added Walkspeed For Bedwars and Others", function(Red)
-    end)
-    ChangeLogsSection:Label("(+) Added JumpPower For Bedwars and Others", function(Red)
+    ChangeLogsSection:Label("(+) Added Walkspeed,JumpPower For Bedwars and Others", function(Red)
     end)
 
     -- Bedwars
