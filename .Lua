@@ -75,9 +75,8 @@
         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/TR1V5/TR1V5-Software-V4/main/Games/Pet%20Simulator%20X"))()
     end)
     PSXSection:Button("🟩 Vestra Hub V5 (Best)", function(v)
-	game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Vestra Key Copied!", Icon = "rbxassetid://10470552407", Duration = 5})
-	setclipboard("Vstra.V5_d9b34c5dcc1b1cbe")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
+        getgenv().key = "Vstra.V5_c98e9b642ef2e5f8"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
     end)
     PSXSection:Button("🟩 BK (Best)", function(v)
     	loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
