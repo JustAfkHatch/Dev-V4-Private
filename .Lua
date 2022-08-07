@@ -3,7 +3,6 @@
     local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord"))()
     local window = library:Window("Dev V4 🔒 Private 🔒")
 
-
     -- Main
 
     wait(0.4)
@@ -67,21 +66,21 @@
 	setclipboard("UwuuwlIIIIlIIIIl_6164871262816436247394884")
         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/TR1V5/TR1V5-Software-V4/main/Games/Pet%20Simulator%20X"))()
     end)
-    PSXSection:Button("🟩 Vestra Hub V5 (Mega Best)", function(v)
+    PSXSection:Button("🟩 Vestra Hub V5 (Ultra Best)", function(v)
         getgenv().key = "Vstra.V5_c98e9b642ef2e5f8"
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
     end)
-    PSXSection:Button("🟩 Huge Games (Mega Best)", function(v)
+    PSXSection:Button("🟩 Huge Games (Ultra Best)", function(v)
     getgenv().AuthKey="HUGE_wDp2O6304GTlCH0n"
     getgenv().LoadSettings={
     UseSeperateSaves=false
 }
     loadstring(game:HttpGet("https://HugeGames.io/script"))()
     end)
-    PSXSection:Button("🟩 BK (Best)", function(v)
+    PSXSection:Button("🟩 BK (Mega Best)", function(v)
     	loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
     end)
-    PSXSection:Button("🟩 Thunder Z (Best)", function(v)
+    PSXSection:Button("🟩 Thunder Z (Mega Best)", function(v)
 	loadstring(game:HttpGet("https://robloxhubop.ml/raw/leranebimu"))()
     end)
     PSXSection:Button("🟩 PhantomHub (Best)", function(v)
@@ -205,7 +204,7 @@ end)
     UniversalSection:Button("🟩Dark Hub", function(v)
         loadstring(game:HttpGet("https://darkhub.xyz/remote-script.lua", true))()
     end)
-    UniversalSection:Button("🟩Evo2", function(v)
+    UniversalSection:Button("🟩Project Evo V2", function(v)
         loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
     end)
     UniversalSection:Button("🟩Strawhook", function(v)
@@ -215,7 +214,8 @@ end)
         loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
     end)
     UniversalSection:Button("🟩Vestra Hub", function(v)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
+        getgenv().key = "Vstra.V5_c98e9b642ef2e5f8"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
     end)
     UniversalSection:Button("🟩TR1V5 Software", function(v)
         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/TR1V5/TR1V5-Software-V4/main/Main"))()
