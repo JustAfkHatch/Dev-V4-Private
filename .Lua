@@ -12,11 +12,13 @@
 
     local Tab = window:Server("Dev V4", "rbxassetid://10470552407")
     local ChangeLogsSection = Tab:Channel("ChangeLogs")
-    ChangeLogsSection:Label("(+) Small Update V4.1.9 Last V4.1.8", function(Red)
+    ChangeLogsSection:Label("(+) Small Update V4.2 Last V4.1.9", function(Red)
+    end)
+    ChangeLogsSection:Label("(+) Added Keys To Vestra Hub V5", function(Red)
     end)
     ChangeLogsSection:Label("(+) 1st = Ultra Best 2nd = Mega Best,3rd = Best", function(Red)
     end)
-    ChangeLogsSection:Label("(+) 4th Place = Okay,Last place = Worst", function(Red)
+    ChangeLogsSection:Label("(+) 4th Place = Okay,Last place = Worst or Trash", function(Red)
     end)
 
     -- Bedwars
@@ -67,7 +69,7 @@
         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/TR1V5/TR1V5-Software-V4/main/Games/Pet%20Simulator%20X"))()
     end)
     PSXSection:Button("🟩 Vestra Hub V5 (Ultra Best)", function(v)
-        getgenv().key = "Vstra.V5_c98e9b642ef2e5f8"
+	getgenv().key = "Vstra.V5_73b395ff54e72348"
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
     end)
     PSXSection:Button("🟩 Huge Games (Ultra Best)", function(v)
@@ -155,16 +157,16 @@ end)
       	loadstring(game:HttpGet("https://system-exodus.com/scripts/MiningSimulator/MiningSimulator2.lua", true))()
     end)
     MiningSim2Section:Button("🟩 Vestra Hub (Best)", function(v)
-        getgenv().key = "Vstra.V5_c98e9b642ef2e5f8"
+	getgenv().key = "Vstra.V5_73b395ff54e72348"
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
-end)
+    end)
     MiningSim2Section:Button("🟩🟧 HugeGames (Best)", function(v)
-getgenv().AuthKey="HUGE_wDp2O6304GTlCH0n"
-getgenv().LoadSettings={
-UseSeperateSaves=false
-}
-loadstring(game:HttpGet("https://HugeGames.io/ms2"))()
-end)
+	getgenv().AuthKey="HUGE_wDp2O6304GTlCH0n"
+	getgenv().LoadSettings={
+	UseSeperateSaves=false
+	}
+	loadstring(game:HttpGet("https://HugeGames.io/ms2"))()
+	end)
     MiningSim2Section:Button("🟩 Zeerox Gui (Old And Buggy)", function(v)
         loadstring(game:HttpGet'https://github.com/RunDTM/miningsim2/raw/main/script.lua')()
     end)
@@ -214,7 +216,7 @@ end)
         loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
     end)
     UniversalSection:Button("🟩Vestra Hub", function(v)
-        getgenv().key = "Vstra.V5_c98e9b642ef2e5f8"
+	getgenv().key = "Vstra.V5_73b395ff54e72348"
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
     end)
     UniversalSection:Button("🟩TR1V5 Software", function(v)
@@ -277,7 +279,8 @@ end)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NexIsHot/PeepWare/main/Login.lua"))()
     end)
     ClickerSimSection:Button("🟩Vestra Hub", function(v)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
+        getgenv().key = "Vstra.V5_73b395ff54e72348"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
     end)
     ClickerSimSection:Button("🟩Kaoru Hub", function(v)
         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Uvxtq/lua/main/Loader.lua"))()
@@ -490,8 +493,9 @@ end)
     GameHubSection:Button("🟩Discordia Hub", function(v)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/albibos/discordia/main/lua"))()
     end)
-    GameHubSection:Button("🟩Vestra Hub (Key In Discord)", function(v)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
+    GameHubSection:Button("🟩Vestra Hub (Key Link In Discord)", function(v)
+        getgenv().key = "Vstra.V5_73b395ff54e72348"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
     end)
     GameHubSection:Button("🟩Rox Hub", function(v)
         pcall(function()
