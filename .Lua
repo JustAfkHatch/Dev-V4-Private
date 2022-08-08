@@ -33,11 +33,6 @@
 	game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Use This for Heatseeker (OP)", Icon = "rbxassetid://10470552407", Duration = 5})
     	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
     end)
-    BedwarsSection:Textbox("Use Inf Jump", "Inf Jump Better", "", function (v)
-    end)
-    BedwarsSection:Button("🟩Sape (Exclusive)", function(v)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/vodxn/sape/main/Initiate.lua"))()
-    end)
     BedwarsSection:Button("🟩Inf Jump", function(v)
             local InfiniteJumpEnabled = true
     game:GetService("UserInputService").JumpRequest:connect(function()
@@ -45,6 +40,9 @@
                 game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
             end
         end)
+    end)
+    BedwarsSection:Button("🟩Sape (Exclusive)", function(v)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/vodxn/sape/main/Initiate.lua"))()
     end)
     BedwarsSection:Button("🟩Vape V4 (Exclusive)", function(v)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
