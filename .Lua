@@ -5,18 +5,22 @@
 
     -- Main
 
-    wait(0.4)
-    game.StarterGui:SetCore("SendNotification", {Title = "Version Is Up To Date!", Text = "Dev V4 Private Version = (V4.1.9)", Icon = "rbxassetid://10470552407", Duration = 5})
-    wait(0.2)
-    game.StarterGui:SetCore("SendNotification", {Title = "👑 Enjoy Dev V4 Private👑", Text = "Dev V4 Private Finished Loading!", Icon = "rbxassetid://10470552407", Duration = 5})
+    wait(0.35)
+    game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Dev V4 Private Version = (V4.2.1)", Icon = "rbxassetid://10470552407", Duration = 5})
+    wait(0.25)
+    game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Version Is Up To Date (V4.2.1)", Icon = "rbxassetid://10470552407", Duration = 5})
+    wait(0.15)
+    game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Dev V4 Private Finished Loading!", Icon = "rbxassetid://10470552407", Duration = 5})
 
     local Tab = window:Server("Dev V4", "rbxassetid://10470552407")
     local ChangeLogsSection = Tab:Channel("ChangeLogs")
+    ChangeLogsSection:Label("(+) Not Updating My Notification Version LOL", function(Red)
+    end)
     ChangeLogsSection:Label("(+) Small Update V4.2.2 Last V4.2.1", function(Red)
     end)
     ChangeLogsSection:Label("(+) Added New Script Link to Zeerox (MS2,PSX,(PH,Arsenal,*Soon*)", function(Red)
     end)
-    ChangeLogsSection:Label("(+) Added (Exclusive,Mythical,Legendary,Epic,Rare,Unknown and Common)", function(Red)
+    ChangeLogsSection:Label("(+) Added Exclusive,Mythical,Legendary,Unknown,Common", function(Red)
     end)
 
     -- Bedwars
@@ -29,9 +33,7 @@
 	game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Use This for Heatseeker (OP)", Icon = "rbxassetid://10470552407", Duration = 5})
     	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
     end)
-    BedwarsSection:Textbox("🟩JumpPower", "Default : 50/Unknown", "", function (value)
-	game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Try it Out Idk Mon", Icon = "rbxassetid://10470552407", Duration = 5})
-    	game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
+    BedwarsSection:Textbox("Use Inf Jump", "Inf Jump Better", "", function (v)
     end)
     BedwarsSection:Button("🟩Sape (Exclusive)", function(v)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/vodxn/sape/main/Initiate.lua"))()
@@ -168,13 +170,10 @@ end)
 	}
 	loadstring(game:HttpGet("https://HugeGames.io/ms2"))()
 	end)
-    MiningSim2Section:Button("🟩 Zeerox Gui (Old And Buggy)", function(v)
-        loadstring(game:HttpGet'https://github.com/RunDTM/miningsim2/raw/main/script.lua')()
-    end)
-    MiningSim2Section:Button("🟩 Kelp Hub (Best+Key)", function(v)
+    MiningSim2Section:Button("🟩 Kelp Hub (Legendary -- Key)", function(v)
         loadstring(game:HttpGet('https://raw.githubusercontent.com/MaGiXxScripter/Cum-Hub/main/loader'))()
     end)
-    MiningSim2Section:Button("🟩 TR1V5 Software (Okay)", function(v)
+    MiningSim2Section:Button("🟩 TR1V5 Software (Legendary)", function(v)
 	game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "TR1V5 Key Copied!", Icon = "rbxassetid://10470552407", Duration = 5})
 	setclipboard("UwuuwlIIIIlIIIIl_6164871262816436247394884")
         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/TR1V5/TR1V5-Software-V4/main/Main"))()
