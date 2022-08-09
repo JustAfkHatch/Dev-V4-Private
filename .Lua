@@ -14,13 +14,17 @@
 
     local Tab = window:Server("Dev V4", "rbxassetid://10470552407")
     local ChangeLogsSection = Tab:Channel("ChangeLogs")
-    ChangeLogsSection:Label("(+) Not Updating My Notification Version LOL", function(Red)
-    end)
-    ChangeLogsSection:Label("(+) Small Update V4.2.2 Last V4.2.1", function(Red)
+    ChangeLogsSection:Label("(+) Small Update V4.2.2", function(Red)
     end)
     ChangeLogsSection:Label("(+) Added New Script Link to Zeerox (MS2,PSX,(PH,Arsenal-Soon)", function(Red)
     end)
     ChangeLogsSection:Label("(+) Added Exclusive,Mythical,Legendary,Unknown,Common", function(Red)
+    end)
+    ChangeLogsSection:Label("(-) Last V4.2.1", function(Red)
+    end)
+    ChangeLogsSection:Label("(-) Removed JumpPower Replaced with Inf Jump", function(Red)
+    end)
+    ChangeLogsSection:Label("(-) Also Removed Zeerox (Buggy Version)", function(Red)
     end)
 
     -- Bedwars
@@ -151,17 +155,17 @@ end)
     local MiningSim2Section = Tab:Channel("Mining Simulator 2")
     MiningSim2Section:Label("🟩 Working! 🟧 In Development 🟥 Patched!", function(v)
     end)
-    MiningSim2Section:Button("🟩 Zeerox (Ultra Best)", function(v)
+    MiningSim2Section:Button("🟩 Zeerox (Exclusive)", function(v)
         loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
     end)
-    MiningSim2Section:Button("🟩 System Exodus (Mega Best)", function(v)
+    MiningSim2Section:Button("🟩 System Exodus (Exclusive)", function(v)
       	loadstring(game:HttpGet("https://system-exodus.com/scripts/MiningSimulator/MiningSimulator2.lua", true))()
     end)
-    MiningSim2Section:Button("🟩 Vestra Hub (Best)", function(v)
+    MiningSim2Section:Button("🟩 Vestra Hub (Mythical)", function(v)
 	getgenv().key = "Vstra.V5_73b395ff54e72348"
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
     end)
-    MiningSim2Section:Button("🟩🟧 HugeGames (Best)", function(v)
+    MiningSim2Section:Button("🟩🟧 HugeGames (Mythical)", function(v)
 	getgenv().AuthKey="HUGE_wDp2O6304GTlCH0n"
 	getgenv().LoadSettings={
 	UseSeperateSaves=false
