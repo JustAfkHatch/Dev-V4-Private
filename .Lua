@@ -20,6 +20,8 @@
     end)
     ChangeLogsSection:Label("(+) Added 7 Scripts To Legends Of Speed", function(Red)
     end)
+    ChangeLogsSection:Label("(Next Update) Adding BloxFruits And More Anime Games", function(Red)
+    end)
     ChangeLogsSection:Label("(-) Removed V4.2.1 ChangeLogs", function(Red)
     end)
 
@@ -31,7 +33,7 @@
     end)
     ChangeLogsSection:Label("(Reminder) Also Removing V4.2.1 ChangeLogs Next Update!", function(Red)
     end)
-    ChangeLogsSection:Label("(NEXT UPDATE!) Unknown!", function(Red)	
+    ChangeLogsSection:Label("(+) Adding Legends of Speed", function(Red)	
     end)
 		
     ChangeLogsSection:Label("(+) Last V4.2.2", function(Red)
