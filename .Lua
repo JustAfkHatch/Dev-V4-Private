@@ -5,18 +5,11 @@
 
     -- Main
 
-function Destroy()
-game:GetService("CoreGui").DiscordLib:Destroy()
-end
-
-function Dev_V4()
-Destroy()
-end
 
     wait(0.55)
-    game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Dev V4 Private Version = (V4.2.7)", Icon = "rbxassetid://10470552407", Duration = 5})
+    game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Dev V4 Private Version = (V4.3)", Icon = "rbxassetid://10470552407", Duration = 5})
     wait(0.35)
-    game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Version Is Up To Date (V4.2.7)", Icon = "rbxassetid://10470552407", Duration = 5})
+    game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Version Is Up To Date (V4.3)", Icon = "rbxassetid://10470552407", Duration = 5})
     wait(0.15)
     game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Dev V4 Private Finished Loading!", Icon = "rbxassetid://10470552407", Duration = 5})
 
@@ -29,6 +22,8 @@ end
     ChangeLogsSection:Label("(+) Added 7 Scripts To Legends Of Speed", function(Red)
     end)
     ChangeLogsSection:Label("(Next Update) Adding BloxFruits And More Anime Games", function(Red)
+    end)
+    ChangeLogsSection:Label("(Next Update) Releasing DaHood Script to Dev V4", function(Red)
     end)
     ChangeLogsSection:Label("(-) Removed V4.2.1 ChangeLogs", function(Red)
     end)
@@ -54,9 +49,6 @@ end
 
     local MainSection = Tab:Channel("Other Scripts")
     MainSection:Label("🟩 Working! 🟧 In Development 🟥 Patched!", function(v)
-    end)
-    MainSection:Button("🟩Dex Explorer", function(v)
-        Dev_V4()
     end)
     MainSection:Button("🟩Dex Explorer", function(v)
         loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
