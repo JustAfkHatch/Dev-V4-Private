@@ -1,4 +1,4 @@
-    -- Dev V4 Discord Lib
+    -- Dev V4.2.7 Discord Lib
 
     local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord"))()
     local window = library:Window("Dev V4 🔒 Private 🔒")
@@ -6,9 +6,9 @@
     -- Main
 
     wait(0.55)
-    game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Dev V4 Private Version = (V4.2.2)", Icon = "rbxassetid://10470552407", Duration = 5})
+    game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Dev V4 Private Version = (V4.2.7)", Icon = "rbxassetid://10470552407", Duration = 5})
     wait(0.35)
-    game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Version Is Up To Date (V4.2.2)", Icon = "rbxassetid://10470552407", Duration = 5})
+    game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Version Is Up To Date (V4.2.7)", Icon = "rbxassetid://10470552407", Duration = 5})
     wait(0.15)
     game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Dev V4 Private Finished Loading!", Icon = "rbxassetid://10470552407", Duration = 5})
 
@@ -18,9 +18,11 @@
     end)
     ChangeLogsSection:Label("(+) Added DaHood!", function(Red)
     end)
-    ChangeLogsSection:Label("(Please Wait) Update Soon!", function(Red)
+    ChangeLogsSection:Label("(+) Added 15 scripts to DaHood", function(Red)
     end)
-    ChangeLogsSection:Label("(Please Wait) Update Soon!", function(Red)	
+    ChangeLogsSection:Label("(Reminder) Also Removing V4.2.1 ChangeLogs Next Update!", function(Red)
+    end)
+    ChangeLogsSection:Label("(NEXT UPDATE!) Unknown!", function(Red)	
     end)
 		
     ChangeLogsSection:Label("(+) Last V4.2.2", function(Red)
@@ -309,6 +311,9 @@ end)
 	shared.potato_pc = true
 	loadstring(game:HttpGet'https://raw.githubusercontent.com/ao-0/oblivity/main/loader.lua')()
     end)
+    DaHoodSection:Button("🟩Azure", function(v)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/JustAfkHatch/Bedwars-Script-Test/Roblox_Script/.Lua",true))()
+    end)
     DaHoodSection:Button("🟩Vortex Hub", function(v)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))()
     end)
@@ -345,7 +350,6 @@ end)
     DaHoodSection:Button("🟩MaxiWare", function(v)
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/YESLIKERJNDN/MaxiWareBlolEpicYes/main/out%20(1).lua"), true))()
     end)
-
 
 --Break In
     
