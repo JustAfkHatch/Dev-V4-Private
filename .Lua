@@ -15,6 +15,14 @@
 
     local Tab = window:Server("Dev V4", "rbxassetid://10470552407")
     local ChangeLogsSection = Tab:Channel("ChangeLogs")
+    ChangeLogsSection:Label("(+) Small Update V4.4.1", function(Red)
+    end)
+    ChangeLogsSection:Label("(+) Added Zeerox To Universal (Only Arsenal And PF)", function(Red)
+    end)
+
+    ChangeLogsSection:Label("----------------------------------------------------", function(Red)
+    end)
+
     ChangeLogsSection:Label("(+) Mega Huge Update V4.4", function(Red)
     end)
     ChangeLogsSection:Label("(+) Added Bloxfruit 42 + Scripts", function(Red)
@@ -24,6 +32,8 @@
     ChangeLogsSection:Label("(+) Released Da Hood", function(Red)
     end)
 
+    ChangeLogsSection:Label("----------------------------------------------------", function(Red)
+    end)
 
     ChangeLogsSection:Label("(+) Big Update V4.3", function(Red)
     end)
@@ -38,6 +48,9 @@
     ChangeLogsSection:Label("(-) Removed V4.2.1 ChangeLogs", function(Red)
     end)
 
+    ChangeLogsSection:Label("----------------------------------------------------", function(Red)
+    end)
+
     ChangeLogsSection:Label("(+) Huge Update V4.2.7", function(Red)
     end)
     ChangeLogsSection:Label("(+) Added DaHood!", function(Red)
@@ -47,6 +60,9 @@
     ChangeLogsSection:Label("(Reminder) Also Removing V4.2.1 ChangeLogs Next Update!", function(Red)
     end)
     ChangeLogsSection:Label("(+) Adding Legends of Speed", function(Red)	
+    end)
+
+    ChangeLogsSection:Label("----------------------------------------------------", function(Red)
     end)
 		
     ChangeLogsSection:Label("(+) Last V4.2.2", function(Red)
@@ -516,6 +532,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AltsegoD/scripts/egoD
     end)
     UniversalSection:Button("🟢Vg Hub (Mythical)", function(v)
         loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+    end)
+    UniversalSection:Button("🟢Zeerox Hub (Exclusive)", function(v)
+	loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
     end)
     UniversalSection:Button("🟢Strawhook (Legendary)", function(v)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
