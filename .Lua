@@ -14,12 +14,22 @@
 
     local Tab = window:Server("Dev V4", "rbxassetid://10470552407")
     local ChangeLogsSection = Tab:Channel("ChangeLogs")
-    ChangeLogsSection:Label("(+) Small Update V4.2.2", function(Red)
+    ChangeLogsSection:Label("(+) Big Update V4.2.7", function(Red)
+    end)
+    ChangeLogsSection:Label("(Please Wait) Update Soon!", function(Red)
+    end)
+    ChangeLogsSection:Label("(Please Wait) Update Soon!", function(Red)
+    end)
+    ChangeLogsSection:Label("(Please Wait) Update Soon!", function(Red)	
+    end)
+		
+    ChangeLogsSection:Label("(+) Last V4.2.2", function(Red)
     end)
     ChangeLogsSection:Label("(+) Added New Script Link to Zeerox (MS2,PSX,(PH,Arsenal-Soon)", function(Red)
     end)
     ChangeLogsSection:Label("(+) Added Exclusive,Mythical,Legendary,Unknown,Common", function(Red)
     end)
+		
     ChangeLogsSection:Label("(-) Last V4.2.1", function(Red)
     end)
     ChangeLogsSection:Label("(-) Removed JumpPower Replaced with Inf Jump", function(Red)
