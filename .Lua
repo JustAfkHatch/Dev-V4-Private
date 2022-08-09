@@ -5,6 +5,14 @@
 
     -- Main
 
+function Destroy()
+game:GetService("CoreGui").DiscordLib:Destroy()
+end
+
+function Dev_V4()
+Destroy()
+end
+
     wait(0.55)
     game.StarterGui:SetCore("SendNotification", {Title = "Notification", Text = "Dev V4 Private Version = (V4.2.7)", Icon = "rbxassetid://10470552407", Duration = 5})
     wait(0.35)
@@ -46,6 +54,9 @@
 
     local MainSection = Tab:Channel("Other Scripts")
     MainSection:Label("🟩 Working! 🟧 In Development 🟥 Patched!", function(v)
+    end)
+    MainSection:Button("🟩Dex Explorer", function(v)
+        Dev_V4()
     end)
     MainSection:Button("🟩Dex Explorer", function(v)
         loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
